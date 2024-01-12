@@ -11,20 +11,17 @@ header {
     background-color: #623084;
 }
 
+.nav-pills .nav-link {
+    text-decoration: none;
+    color: #fff7f4;
+}
+
 .nav-pills .nav-link.active {
     background-color: #dcd6f7;
+    color: #623084;
     border-bottom: solid 3px #ee6352;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-}
-
-#menu-navegacao li.active a {
-    color: #623084;
-}
-
-#menu-navegacao a {
-    text-decoration: none;
-    color: #fff7f4;
 }
 
 .section-title {
