@@ -70,3 +70,14 @@ header {
     top: 0;
     color: #623084;
 }
+
+.nav-produtos .nav-link {
+    color: #623084;
+}
+
+.nav-produtos .nav-link.active {
+    color: #ee6352;
+    border-bottom: none;
+    border-left: solid 3px #623084;
+    border-radius: 0;
+}
