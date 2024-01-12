@@ -54,3 +54,22 @@ header {
 .base-bg-white {
     background-color: #fff7f4;
 }
+
+.lista-loja {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.lista-loja li {
+    position: relative;
+    padding-left: 30px;
+}
+
+.bi-dice-1-fill,
+.bi-dice-2-fill,
+.bi-dice-3-fill {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #623084;
+}
