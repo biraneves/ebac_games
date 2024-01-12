@@ -7,11 +7,17 @@ body {
     color: #1b1b1b;
 }
 
-header {
+header,
+footer {
     background-color: #623084;
 }
 
-.nav-pills .nav-link {
+textarea {
+    resize: none;
+}
+
+.nav-pills .nav-link,
+footer a {
     text-decoration: none;
     color: #fff7f4;
 }
@@ -80,4 +86,27 @@ header {
     border-bottom: none;
     border-left: solid 3px #623084;
     border-radius: 0;
+}
+
+.btn-produtos,
+.btn-contato {
+    background-color: #ee6352;
+    color: #fff7f4;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel img {
+        height: 260px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel img {
+        height: 360px;
+    }
 }
